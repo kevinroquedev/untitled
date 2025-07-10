@@ -1970,7 +1970,7 @@ slash@^3.0.0:
 
 "smd-scaffold@git+https://gitlab+deploy-token-2419333:TGSe4ScyFNH47pM6hrkU@gitlab.com/leapfroggr/vue3-scaffold.git#main-test":
   version "0.0.0"
-  resolved "git+https://gitlab+deploy-token-2419333:TGSe4ScyFNH47pM6hrkU@gitlab.com/leapfroggr/vue3-scaffold.git#336bb187fd1cff62502bf69b08ba30fc5ecfc425"
+  resolved "git+https://gitlab+deploy-token-2419333:TGSe4ScyFNH47pM6hrkU@gitlab.com/leapfroggr/vue3-scaffold.git#618f6ac9237f11d8796b42a6a4a4f46e18df04e8"
   dependencies:
     "@hoppscotch/vue-toasted" "^0.1.0"
     "@popperjs/core" "^2.11.8"

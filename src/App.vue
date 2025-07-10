@@ -3,6 +3,9 @@
 
   const date = ref(new Date());
   const text = ref('');
+  const activePillTab = ref('Pill 1');
+  const pillTabs = ['Pill 1', 'Pill 2', 'Pill 3'];
+
 </script>
 
 <template>
@@ -29,6 +32,9 @@
           <span class="smd-icon-plus-with-circle"></span>
           <p class="body-5">Create New Patient Record</p>
         </smd-card>
+        <smd-pill-tabs type="pill"
+                       v-model="activePillTab"
+                       :options="pillTabs"/>
       </smd-one-column-layout>
     </template>
   </smd-two-column-layout>
